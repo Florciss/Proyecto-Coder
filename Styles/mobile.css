@@ -1,0 +1,34 @@
+
+@media screen and (max-width: 768px) {
+    .fondo p{
+            display: none;
+      }
+
+
+    .fondo h1 {
+        margin-left: 110px;
+    }
+
+    .barras nav ul{   
+        display: flex;
+        justify-content: center;  
+        flex-direction: column;
+    }  
+
+    .links__portugues{
+        margin-bottom: 10px;
+    }
+
+    .links__frances{
+        margin-top: 10px;
+    }
+
+    .Form textarea{
+        width: 300px;
+    }
+
+    .Nosotros img{
+        display: none;
+    }
+
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">       
+        <title>Contacto</title>
+        <link href="../Styles/Common.css" type="text/css" rel="stylesheet">
+        <link href="../Styles/mobile.css" type="text/css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <header class="barras">
+            <div class="logo">
+                <img src="../imagenes/Logo5.jpg" alt="">
+            </div>
+            <nav class="navegacion">
+                <ul>        
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./Nosotros.html">Nosotros</a></li>
+                    <li><a href="./Contacto.html">Contacto</a></li>
+                </ul> 
+            </nav>        
+        </header>
+
+        <section class="Contacto">
+            <h1>Contacto</h1>
+        </section>
+
+        <section class="prin">
+            <article class="Principal">   
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit fugiat iste consequatur harum repellendus, enim iure similique ut odio, quo necessitatibus voluptates? Illum id voluptatem dicta perferendis, earum cumque eum.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti saepe eaque nemo quisquam deleniti quibusdam commodi? Expedita impedit facilis inventore nulla, sunt optio accusantium sint eos delectus sed voluptatibus deleniti! 
+                </p>
+            </article>           
+
+            <article class="Formulario">
+                <h2>Envianos tu consulta</h2>
+                <form class="Form" action="">
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" name="nombre" placeholder="Ej.Juan Perez"/>
+                    <br>
+                    <br>
+                    <label for="email">Correo electronico:</label>
+                    <input type="email" name="email" placeholder="nombre@ejemplo.com"/>
+                    <br>
+                    <br>
+                    <label for="Idioma">Sobre que idioma es tu consulta?</label>
+                    <select name="Idioma">
+                        <option value="I">Ingles</option>
+                        <option value="P">Portugues</option>
+                        <option value="F">Frances</option>
+                        <option value="I">Italiano</option>
+                    </select>
+                    <br>
+                    <br> 
+                    <label for="Consulta">Consulta:</label> 
+                    <br>            
+                    <textarea rows="20" cols="60" name="Consulta" placeholder="Ingrese aqui su consulta"></textarea>
+                    <br>
+                    <br>
+                    <label for="acepta">Quiero recibir noticias sobre talleres especiales y promociones</label>
+                    <input type="checkbox" name="acepta" value="1" />
+                    <br>
+                    <br>                       
+                    <input type="submit" value="Enviar formulario"/>
+                    <input type="reset" value="Limpiar formulario"/>
+                    <br>     
+                </form>
+            </article>
+        </section>
+
+        <footer>
+            <p>Copyright (c) 2021 Lengüista Inc.</p>
+        </footer>    
+    </body>
+</html>
