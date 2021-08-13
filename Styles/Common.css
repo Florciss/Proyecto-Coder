@@ -3,7 +3,8 @@ html{
 }
 
 body{
-    width: 100%;
+    width: 1500px;
+    height: 100%;
 }
 
 header{
@@ -205,7 +206,6 @@ label{
 footer{
     background-color: rgb(225, 203, 166);
     height: 150px;
-    padding-left: 50px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
     color: black;
@@ -214,6 +214,11 @@ footer{
     align-items: center;
     margin-top: 0px;
     width: 100%;
+    margin-left: none;
+}
+
+footer p{
+    padding-left: 50px;
 }
 
 .slide{
