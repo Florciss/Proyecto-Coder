@@ -20,10 +20,17 @@ header{
     margin-left: 10px;
 }
 
+.logo img{
+    width: 130px;
+    height: 61.175px;
+}
+
 header nav ul{   
     display: flex;
     justify-content: space-evenly;  
     text-align: center;
+    padding-left: 0px;
+    margin-top: 16px;
 }
 
 nav a{
@@ -33,8 +40,10 @@ nav a{
 
 nav{
     justify-content: center;
-    width: 75%;
+    width: 82%;
 }
+
+
 
 li{
     list-style: none;   
@@ -54,7 +63,7 @@ nav a:hover{
 
 h1{
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
+    color: #000000eb;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 15px;
@@ -73,7 +82,7 @@ h1{
 
 h2{
     font-family: Arial, Helvetica, sans-serif;
-    color: #000000e0;
+    color: #000000eb;
 }
 
 p{
@@ -92,9 +101,11 @@ p{
     margin-top: 0px;
 }
 
+/*
 .titulo__nosotros h1{
     margin-bottom: 0px;
 }
+*/
 
 .Nosotros img{
     height: 400px;
@@ -123,7 +134,10 @@ p{
     margin-bottom: 60px;
     margin-top: 60px;
     text-align: center;
-    color: #000000e0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000eb;
+    font-weight: bold;
+    font-size: 1.5em;
 }
 
 .Valores__1{
@@ -173,6 +187,7 @@ p{
 .Contacto h1{
     text-align: center;
     width: 100%;
+    color: #000000eb;
 }
 
 .prin{
@@ -203,6 +218,7 @@ label{
 
 .Formulario h2{
     padding-bottom: 20px;
+    color: #000000eb;
 }
 
 footer{
@@ -210,7 +226,7 @@ footer{
     height: 150px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
-    color: black;
+    color: #000000eb;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -322,11 +338,48 @@ footer p{
     color: #000000e0;
 }
 
+#carouselExampleControls{
+    height: 400px;
+    width: 750px;
+    margin-bottom: 90px;    
+    display: inline-block;      
+}  
 
+.Flor h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000eb;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size: xx-large; 
+    background-color: rgb(225, 203, 166);
+    height: 60px;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-weight: bold;
+}
 
+.CuerpoNos{
+    margin: 8px;
+}
 
+.respo{
+    width: 100%;
+    height: 100%; 
+}
 
-
+.Valores h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000eb;
+    font-size: large;
+    padding-top: 20px;
+}
 
 
 

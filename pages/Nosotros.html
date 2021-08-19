@@ -4,17 +4,21 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+        
         <title>Nosotros</title>
         <link href="../Styles/Common.css" type="text/css" rel="stylesheet">
         <link href="../Styles/mobile.css" type="text/css" rel="stylesheet">
     </head>
     
-    <body>
+    <body class="CuerpoNos respo">
         <header class="barras">
             <div class="logo">
                 <img src="../imagenes/Logo5.jpg" alt="">
             </div>
-                <nav class="navegacion">
+                <nav class="navegacion altura">
                     <ul>        
                         <li><a href="../index.html">Home</a></li>
                         <li><a href="./Nosotros.html">Nosotros</a></li>
@@ -23,13 +27,34 @@
                 </nav>        
         </header>
 
-        <section class="titulo">
+        <section class="Flor">
             <h1>Nosotros</h1>
         </section>
         
         <section class="nos">
             <article class="Nosotros">
-                <img src="../imagenes/Nosotros.jpg" alt="">
+                <!--img src="../imagenes/Nosotros.jpg" alt=""-->
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="../imagenes/Nosotros.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../imagenes/Carousel2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../imagenes/Carousel3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid sed reprehenderit deserunt odit deleniti incidunt modi aperiam eos at. Dicta mollitia voluptatibus quibusdam architecto quod a tempore molestias sint voluptatem.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, blanditiis? Praesentium, repudiandae deleniti laborum numquam soluta quasi ipsa libero voluptates iste fugiat itaque non incidunt ad quia maxime delectus reiciendis! 
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt labore animi quas non dignissimos veniam mollitia veritatis voluptas dolorum aliquam doloremque consectetur voluptatibus rerum maxime in, quam adipisci. Inventore, culpa.    
