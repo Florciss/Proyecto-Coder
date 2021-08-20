@@ -1,3 +1,5 @@
+/*Generales o comunes*/
+
 html{
     width: 100%;
 }
@@ -43,8 +45,6 @@ nav{
     width: 82%;
 }
 
-
-
 li{
     list-style: none;   
     font-family: Arial, Helvetica, sans-serif;
@@ -59,6 +59,15 @@ nav ul li:hover{
 
 nav a:hover{
     color: white;    
+}
+
+.CuerpoNos{
+    margin: 8px;
+}
+
+.respo{
+    width: 100%;
+    height: 100%; 
 }
 
 h1{
@@ -90,6 +99,8 @@ p{
     color: black;
 }
 
+/*Nosotros*/
+
 .Nosotros{
     text-align: center;
     margin-top: 0px;
@@ -101,11 +112,32 @@ p{
     margin-top: 0px;
 }
 
-/*
-.titulo__nosotros h1{
+.TituloNos h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000eb;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size: xx-large; 
+    background-color: rgb(225, 203, 166);
+    height: 60px;
+    margin-top: 0px;
+    padding-top: 0px;
     margin-bottom: 0px;
+    padding-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-weight: bold;
 }
-*/
+
+#carouselExampleControls{
+    height: 400px;
+    width: 750px;
+    margin-bottom: 90px;    
+    display: inline-block;      
+}  
 
 .Nosotros img{
     height: 400px;
@@ -138,6 +170,14 @@ p{
     color: #000000eb;
     font-weight: bold;
     font-size: 1.5em;
+}
+
+.Valores h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000eb;
+    font-size: 1.5em;
+    padding-top: 20px;
+    font-weight: bold;
 }
 
 .Valores__1{
@@ -176,6 +216,8 @@ p{
     padding-top: 20px;
     margin-top: 20px;
 }
+
+/*Contacto*/
 
 .contacto{
     margin-top: 0px;
@@ -221,22 +263,21 @@ label{
     color: #000000eb;
 }
 
-footer{
-    background-color: rgb(225, 203, 166);
-    height: 150px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
-    color: #000000eb;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    margin-top: 0px;
-    width: 100%;
-    margin-left: none;
+/*Estructura paginas de Idiomas*/
+
+.lenguas{
+    margin: 8px;
 }
 
-footer p{
-    padding-left: 50px;
+.titulo h1{
+    font-weight: bold;
+}
+
+.Idiomas h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    color: #000000e0;
 }
 
 .slide{
@@ -246,11 +287,13 @@ footer p{
     width: 100%;
 }
 
-.slide h3{
+.slide__titulo h3{
     font-size: 56px;
     padding-left: 60px;
     padding-top: 25px;
     width: 100%;
+    font-weight: bold;
+    margin-top: 40px;
 }
 
 .slide__imagen{
@@ -338,56 +381,25 @@ footer p{
     color: #000000e0;
 }
 
-#carouselExampleControls{
-    height: 400px;
-    width: 750px;
-    margin-bottom: 90px;    
-    display: inline-block;      
-}  
+/*Footer general*/
 
-.Flor h1{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #000000eb;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 15px;
-    font-size: xx-large; 
+footer{
     background-color: rgb(225, 203, 166);
-    height: 60px;
-    margin-top: 0px;
-    padding-top: 0px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    font-weight: bold;
-}
-
-.CuerpoNos{
-    margin: 8px;
-}
-
-.respo{
-    width: 100%;
-    height: 100%; 
-}
-
-.Valores h2{
+    height: 150px;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
     color: #000000eb;
-    font-size: large;
-    padding-top: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 0px;
+    width: 100%;
+    margin-left: none;
 }
 
-
-
-
-
-
-
-
+footer p{
+    padding-left: 50px;
+}
 
 
 
