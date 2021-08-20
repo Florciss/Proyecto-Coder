@@ -381,6 +381,10 @@ label{
     color: #000000e0;
 }
 
+.dropdown{
+    padding-top: 50px;
+}
+
 /*Footer general*/
 
 footer{
