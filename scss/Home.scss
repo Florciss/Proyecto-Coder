@@ -1,0 +1,273 @@
+/*Estilos de Home*/
+@import './colores';
+
+$minimo-pix: 10px;
+$font-general: Arial, Helvetica, sans-serif;
+
+@for $i from 1 through 3 {
+  .Iconos__#{$i} {
+      background-color: $fondo;
+      height: 350px;
+      width: 400px;
+      padding-top: 20px;
+      padding-left: 25px;
+      padding-right: 25px; 
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;   
+    }
+}
+
+@mixin cajas($width, $height, $background, $arriba, $abajo) {
+  width: $width;
+  height: $height;
+  background-color: $background;
+  margin-top: $arriba;
+  margin-bottom: $abajo;
+}
+
+.barras{
+    display: flex;
+    align-items: center;
+    height: $minimo-pix*13;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+.logo{
+    margin-top: -20px;
+    margin-left: $minimo-pix;
+
+    img{
+        width: $minimo-pix*13;
+        height: 61.175px;
+    }
+}
+
+.barras .navegacion .paginas{   
+    display: flex;
+    justify-content: space-evenly;  
+    text-align: center;
+    padding-left: 0px;
+    margin-top: $minimo-pix+6;
+}
+
+.navegacion{
+    justify-content: center;
+    width: 82%;
+
+    a{
+        text-decoration: none;
+        color: $titulo-col;
+    }
+
+    ul li:hover{
+        background-color: $color-prin;
+        border-radius: $minimo-pix/2;
+    } 
+
+    a:hover{
+        color: $fondo;    
+    }
+}
+
+li{
+    list-style: none;   
+    font-family: $font-general;
+    font-size: medium;
+    color: $titulo-col;
+}
+
+.fondo{
+    height: $minimo-pix*45;
+    width: auto;
+    background-image: url("../imagenes/Imagen\ fondo11bis.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        color: $titulo-col;
+        font-size: xx-large;
+        margin-left: $minimo-pix*5;
+        width: 40%;
+        text-align: center;
+    }
+
+    p{
+        font-family: $font-general;
+        color: $parrafos;
+        font-size: large;
+        text-align: center;
+        margin-left: $minimo-pix+35;
+        padding-bottom: $minimo-pix*13;
+        line-height: 1.5;
+        height: 0px;
+        width: 40%;
+    }
+}
+
+.links{ 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+    a img:hover{
+        width: $minimo-pix*21;
+        height: $minimo-pix*15;
+        transition: all 1s;
+    }  
+}
+
+.links__ingles{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    @include cajas(360px, 200px, white, 20px, 20px);
+
+    p{
+        font-family: $font-general;
+        font-size: large;
+        text-align: center;
+        margin-left: $minimo-pix+10;
+        line-height: 1.5;
+    }
+}
+
+.links__portugues{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    @include cajas(360px, 200px, white, 20px, 20px);
+
+    p{
+        font-family: $font-general;
+        font-size: large;
+        text-align: center;
+        margin-left: $minimo-pix;
+        line-height: 1.5;
+    } 
+}
+
+.links__frances{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    @include cajas(360px, 200px, white, 20px, 20px);
+
+    p{
+        font-family: $font-general;
+        font-size: large;
+        text-align: center;
+        margin-left: $minimo-pix;
+        line-height: 1.5;
+    }
+}
+
+.links__italiano{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  @include cajas(360px, 200px, white, 20px, 20px);
+
+    p{
+        font-family: $font-general;
+        font-size: large;
+        text-align: center;
+        margin-left: $minimo-pix;
+        line-height: 1.5;
+    }
+}
+
+.titulo__idiomas h2{
+    text-align: center;
+    font-family: $font-general;
+    color: $titulo-col;
+    height: $minimo-pix*10;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    padding-top: $minimo-pix*7;
+    padding-bottom: $minimo-pix*2;
+}
+
+
+.ofrecemos{    
+    height: 100%;
+  
+    h2{
+        font-family: $font-general;
+        color: $titulo-col;
+        text-align: center;
+        height: 100px;
+        font-size: x-large;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: $minimo-pix*7;
+        padding-bottom: $minimo-pix*3;
+        margin-top: 0px;
+    }
+}
+
+.Iconos{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    p{
+        font-family: $font-general;
+        color: $parrafos;
+        margin-top: 30px;
+        line-height: 1.5;
+    }
+}
+
+.Iconos__1{
+    margin-top: 20px;
+}
+
+.Iconos__2{
+    margin-top: 20px;
+}
+
+.Iconos__3{
+    margin-top: $minimo-pix+10;
+    margin-bottom: $minimo-pix*5;
+}
+
+.piePrin{
+    background-color: $color-prin;
+    height: $minimo-pix*15;
+    padding-left: $minimo-pix*5;
+    font-family: $font-general;
+    font-size: medium;
+    color: $titulo-col;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.cuerpo{
+    background-image: linear-gradient(to top, $color-prin, $fondo);
+    width: 100%;
+}  
+
+
+
+  
