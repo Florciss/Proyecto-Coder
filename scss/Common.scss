@@ -15,11 +15,11 @@ header{
 .logo{
     margin-top: -20px;
     margin-left: 10px;
-}
 
-.logo img{
-    width: 130px;
-    height: 61.175px;
+    img{
+        width: 130px;
+        height: 61.175px;
+    }
 }
 
 header nav ul{   
@@ -30,14 +30,23 @@ header nav ul{
     margin-top: 16px;
 }
 
-nav a{
-    text-decoration: none;
-    color: black;
-}
-
 nav{
     justify-content: center;
     width: 82%;
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    ul li:hover{
+        background-color: rgb(225, 203, 166);
+        border-radius: 5px;
+    }
+
+    a:hover{
+        color: white;    
+    }
 }
 
 li{
@@ -45,15 +54,6 @@ li{
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
     color: grey;
-}
-
-nav ul li:hover{
-    background-color: rgb(225, 203, 166);
-    border-radius: 5px;
-}
-
-nav a:hover{
-    color: white;    
 }
 
 .TituloGen{
@@ -92,10 +92,10 @@ h2{
     margin-top: 0px;
     width: 100%;
     margin-left: none;
-}
 
-.pieGen p{
-    padding-left: 50px;
+    p{
+        padding-left: 50px;
+    }
 }
 
 /*Nosotros*/

@@ -260,10 +260,9 @@ header {
 .logo {
   margin-top: -20px;
   margin-left: 10px; }
-
-.logo img {
-  width: 130px;
-  height: 61.175px; }
+  .logo img {
+    width: 130px;
+    height: 61.175px; }
 
 header nav ul {
   display: flex;
@@ -272,26 +271,23 @@ header nav ul {
   padding-left: 0px;
   margin-top: 16px; }
 
-nav a {
-  text-decoration: none;
-  color: black; }
-
 nav {
   justify-content: center;
   width: 82%; }
+  nav a {
+    text-decoration: none;
+    color: black; }
+  nav ul li:hover {
+    background-color: #e1cba6;
+    border-radius: 5px; }
+  nav a:hover {
+    color: white; }
 
 li {
   list-style: none;
   font-family: Arial, Helvetica, sans-serif;
   font-size: medium;
   color: grey; }
-
-nav ul li:hover {
-  background-color: #e1cba6;
-  border-radius: 5px; }
-
-nav a:hover {
-  color: white; }
 
 .TituloGen {
   font-family: Arial, Helvetica, sans-serif;
@@ -327,9 +323,8 @@ h2 {
   margin-top: 0px;
   width: 100%;
   margin-left: none; }
-
-.pieGen p {
-  padding-left: 50px; }
+  .pieGen p {
+    padding-left: 50px; }
 
 /*Nosotros*/
 .CuerpoNos {
