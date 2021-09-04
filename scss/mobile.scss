@@ -51,4 +51,115 @@
         height: 18.4px;
     }
 
+    .Idiomas{
+        grid-template-rows: 100px auto 100px auto;
+        align-items: unset;
+        margin-left: 0px;
+        padding-left: 0px;
+        grid-template-columns: auto;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .row1{
+        padding-right: 30px;
+        margin-left: 0px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        width: 400px;
+        text-align: center;
+    }
+    
+    .row2{
+        display: flex;
+        justify-content: center;  
+        flex-direction: column; 
+        height: auto;   
+        width: 400px; 
+        text-align: center; 
+        align-items: center;
+    }
+
+    .row2 p{       
+        margin-left: 40px;
+        margin-right: 40px;
+        padding-left: 10px;
+        padding-right: 40px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        width: 400px;
+    }
+
+    .row2 img{
+        margin-top: 1s0px;
+        margin-bottom: 20px;    
+        padding-right: 40px;
+    }
+
+    .row3{
+        height: 250px;
+        display: flex;
+        justify-content: center; 
+        padding-top: 20px;
+        width: 400px;
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 20px;
+        padding-right: 40px;  
+        padding-top: 10px;     
+    }
+   
+    .row4{
+        display: flex;
+        justify-content: center;  
+        flex-direction: column; 
+        height: auto;   
+        width: 400px;   
+        text-align: center;
+    }
+    
+    .row4 p{      
+        padding-bottom: 30px;
+        margin-right: 20px;
+        padding-left: 10px;
+        padding-right: 20px;
+    }
+
+    .row4 img{
+   
+        padding-right: 30px;
+    }
+
+    .slide{
+        display: none;
+    }
+
+    .navegacion ul{
+        display: flex;
+        justify-content: center;  
+        flex-direction: column;
+    }
+
+    .lenguas{
+        width: 100%;
+    }
+
+    html{
+        width: auto;
+    }
+
+    .Escribinos{
+        padding-left: 10px;
+        text-align: center;
+        padding-right: 20px;
+    }
+
+    .pieGen{
+        text-align: center;
+    }
+
+    
 }
