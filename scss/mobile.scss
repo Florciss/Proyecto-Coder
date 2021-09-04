@@ -1,6 +1,10 @@
 /*mobile*/
 
 @media screen and (max-width: 768px) {
+    html{
+        width: auto;
+    }
+    
     .fondo p{
             display: none;
       }
@@ -51,6 +55,20 @@
         height: 18.4px;
     }
 
+    .lenguas{
+        width: 100%;
+    }
+
+    .navegacion ul{
+        display: flex;
+        justify-content: center;  
+        flex-direction: column;
+    }
+
+    .slide{
+        display: none;
+    }
+
     .Idiomas{
         grid-template-rows: 100px auto 100px auto;
         align-items: unset;
@@ -80,22 +98,22 @@
         width: 400px; 
         text-align: center; 
         align-items: center;
-    }
 
-    .row2 p{       
-        margin-left: 40px;
-        margin-right: 40px;
-        padding-left: 10px;
-        padding-right: 40px;
-        margin-top: 20px;
-        margin-bottom: 30px;
-        width: 400px;
-    }
+        p{       
+            margin-left: 40px;
+            margin-right: 40px;
+            padding-left: 10px;
+            padding-right: 40px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            width: 400px;
+        }
 
-    .row2 img{
-        margin-top: 1s0px;
-        margin-bottom: 20px;    
-        padding-right: 40px;
+        img{
+            margin-top: 1s0px;
+            margin-bottom: 20px;    
+            padding-right: 40px;
+        }
     }
 
     .row3{
@@ -119,36 +137,18 @@
         height: auto;   
         width: 400px;   
         text-align: center;
-    }
-    
-    .row4 p{      
-        padding-bottom: 30px;
-        margin-right: 20px;
-        padding-left: 10px;
-        padding-right: 20px;
-    }
 
-    .row4 img{
+        p{      
+            padding-bottom: 30px;
+            margin-right: 20px;
+            padding-left: 10px;
+            padding-right: 20px;
+        }
+
+        img{
    
-        padding-right: 30px;
-    }
-
-    .slide{
-        display: none;
-    }
-
-    .navegacion ul{
-        display: flex;
-        justify-content: center;  
-        flex-direction: column;
-    }
-
-    .lenguas{
-        width: 100%;
-    }
-
-    html{
-        width: auto;
+            padding-right: 30px;
+        }    
     }
 
     .Escribinos{

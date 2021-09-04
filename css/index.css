@@ -489,12 +489,6 @@ label {
 .titulo h1 {
   font-weight: bold; }
 
-.Idiomas h2 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: x-large;
-  font-weight: bold;
-  color: #000000e0; }
-
 .slide {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
@@ -534,6 +528,11 @@ label {
   padding-bottom: 40px;
   line-height: 1.5;
   align-items: center; }
+  .Idiomas h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    color: #000000e0; }
 
 .row1 {
   grid-area: row1; }
@@ -545,11 +544,10 @@ label {
   padding-left: 0px;
   padding-top: 0px;
   align-items: center; }
-
-.row2 p {
-  margin-left: 50px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: black; }
+  .row2 p {
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black; }
 
 .row3 {
   grid-area: row3; }
@@ -558,11 +556,10 @@ label {
   grid-area: row4;
   display: flex;
   align-items: center; }
-
-.row4 p {
-  padding-right: 50px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: black; }
+  .row4 p {
+    padding-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black; }
 
 .Escribinos {
   font-family: Arial, Helvetica, sans-serif;
@@ -577,6 +574,8 @@ label {
 
 /*mobile*/
 @media screen and (max-width: 768px) {
+  html {
+    width: auto; }
   .fondo p {
     display: none; }
   .fondo h1 {
@@ -603,6 +602,14 @@ label {
     margin-left: -15px; }
   .altura li {
     height: 18.4px; }
+  .lenguas {
+    width: 100%; }
+  .navegacion ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; }
+  .slide {
+    display: none; }
   .Idiomas {
     grid-template-rows: 100px auto 100px auto;
     align-items: unset;
@@ -628,18 +635,18 @@ label {
     width: 400px;
     text-align: center;
     align-items: center; }
-  .row2 p {
-    margin-left: 40px;
-    margin-right: 40px;
-    padding-left: 10px;
-    padding-right: 40px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    width: 400px; }
-  .row2 img {
-    margin-top: 1s0px;
-    margin-bottom: 20px;
-    padding-right: 40px; }
+    .row2 p {
+      margin-left: 40px;
+      margin-right: 40px;
+      padding-left: 10px;
+      padding-right: 40px;
+      margin-top: 20px;
+      margin-bottom: 30px;
+      width: 400px; }
+    .row2 img {
+      margin-top: 1s0px;
+      margin-bottom: 20px;
+      padding-right: 40px; }
   .row3 {
     height: 250px;
     display: flex;
@@ -659,23 +666,13 @@ label {
     height: auto;
     width: 400px;
     text-align: center; }
-  .row4 p {
-    padding-bottom: 30px;
-    margin-right: 20px;
-    padding-left: 10px;
-    padding-right: 20px; }
-  .row4 img {
-    padding-right: 30px; }
-  .slide {
-    display: none; }
-  .navegacion ul {
-    display: flex;
-    justify-content: center;
-    flex-direction: column; }
-  .lenguas {
-    width: 100%; }
-  html {
-    width: auto; }
+    .row4 p {
+      padding-bottom: 30px;
+      margin-right: 20px;
+      padding-left: 10px;
+      padding-right: 20px; }
+    .row4 img {
+      padding-right: 30px; }
   .Escribinos {
     padding-left: 10px;
     text-align: center;
