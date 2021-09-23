@@ -2,7 +2,7 @@
 
 @media screen and (max-width: 768px) {
     html{
-        width: auto;
+        width: 100%;
     }
     
     .fondo p{
@@ -13,11 +13,7 @@
         margin-left: 110px;
     }
 
-    .barras nav ul{   
-        display: flex;
-        justify-content: center;  
-        flex-direction: column;
-    }  
+    
 
     .links__portugues{
         margin-bottom: 10px;
@@ -47,6 +43,11 @@
         margin-left: 15px;
     }
 
+    .Valor h2{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
     .Valores__3{
         margin-left: -15px;
     }
@@ -61,8 +62,8 @@
 
     .navegacion ul{
         display: flex;
-        justify-content: center;  
-        flex-direction: column;
+        justify-content: space-evenly;  
+        flex-direction: row;
     }
 
     .slide{
