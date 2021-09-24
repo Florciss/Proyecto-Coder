@@ -577,7 +577,7 @@ label {
   padding-top: 50px; }
 
 /*mobile*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   html {
     width: 100%; }
   .fondo {
@@ -693,3 +693,13 @@ label {
     padding-right: 20px; }
   .pieGen {
     text-align: center; } }
+
+@media screen and (max-width: 320px) {
+  .Form textarea {
+    width: 250px; }
+  .row2 img {
+    display: none; }
+  .row2 p {
+    margin-top: 0px; }
+  .row4 img {
+    display: none; } }
