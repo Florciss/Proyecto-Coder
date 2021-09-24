@@ -267,7 +267,8 @@ header {
   margin-left: 10px; }
   .logo img {
     width: 130px;
-    height: 61.175px; }
+    height: 61.175px;
+    vertical-align: initial; }
 
 header nav ul {
   display: flex;
