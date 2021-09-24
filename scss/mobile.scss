@@ -4,23 +4,28 @@
     html{
         width: 100%;
     }
+
+    .fondo{
+        background-image: none;
+        background-color:  rgb(225, 203, 166);
+    }
     
     .fondo p{
             display: none;
-      }
-
-    .fondo h1 {
-        margin-left: 110px;
     }
 
-    
+    .fondo h1{
+        margin-left: 20px;
+        margin-right: 20px;
+        width: auto;
+    }
 
     .links__portugues{
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
 
     .links__frances{
-        margin-top: 10px;
+        margin-top: 20px;
     }
 
     .Form textarea{
@@ -39,17 +44,31 @@
         padding-top: 50px;
     }
 
+    .Valores__1{
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+
     .Valores__2{
-        margin-left: 15px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     .Valor h2{
         margin-left: 20px;
         margin-right: 20px;
+        margin-top: 50px;
     }
 
     .Valores__3{
-        margin-left: -15px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .Formulario{
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     .altura li{
@@ -78,17 +97,18 @@
         grid-template-columns: auto;
         text-align: center;
         margin-bottom: 30px;
+        justify-self: center;
     }
 
     .row1{
-        padding-right: 30px;
-        margin-left: 0px;
-        padding-top: 0px;
-        padding-bottom: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
         margin-top: 20px;
         margin-bottom: 10px;
-        width: 400px;
+        padding-top: 0px;
+        padding-bottom: 10px;
         text-align: center;
+        justify-self: center;
     }
     
     .row2{
@@ -96,24 +116,21 @@
         justify-content: center;  
         flex-direction: column; 
         height: auto;   
-        width: 400px; 
         text-align: center; 
         align-items: center;
+        justify-self: center;
 
         p{       
             margin-left: 40px;
             margin-right: 40px;
-            padding-left: 10px;
-            padding-right: 40px;
-            margin-top: 20px;
-            margin-bottom: 30px;
-            width: 400px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            padding-left: 0px;
+            padding-right: 0px;
         }
 
         img{
-            margin-top: 1s0px;
-            margin-bottom: 20px;    
-            padding-right: 40px;
+            justify-self: center;
         }
     }
 
@@ -122,38 +139,35 @@
         display: flex;
         justify-content: center; 
         padding-top: 20px;
-        width: 400px;
         text-align: center;
-        margin-left: 0px;
-        margin-right: 0px;
-        padding-left: 20px;
-        padding-right: 40px;  
-        padding-top: 10px;     
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 20px;
+        justify-self: center;     
     }
    
     .row4{
         display: flex;
         justify-content: center;  
         flex-direction: column; 
-        height: auto;   
-        width: 400px;   
+        height: auto;      
         text-align: center;
 
         p{      
-            padding-bottom: 30px;
-            margin-right: 20px;
-            padding-left: 10px;
-            padding-right: 20px;
+            margin-bottom: 40px;
+            margin-right: 40px;
+            margin-left: 40px;
+            padding-left: 0px;
+            padding-right: 0px;
         }
 
-        img{
-   
-            padding-right: 30px;
+        img{  
+            justify-self: center;
         }    
     }
 
     .Escribinos{
-        padding-left: 10px;
+        padding-left: 20px;
         text-align: center;
         padding-right: 20px;
     }
