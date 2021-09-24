@@ -573,24 +573,26 @@ label {
     background-image: none;
     background-color: #e1cba6;
     height: 300px; }
-  .fondo p {
-    display: none; }
-  .fondo h1 {
-    margin-left: 20px;
-    margin-right: 20px;
-    width: auto; }
+    .fondo p {
+      display: none; }
+    .fondo h1 {
+      margin-left: 20px;
+      margin-right: 20px;
+      width: auto; }
   .links__portugues {
     margin-bottom: 20px; }
   .links__frances {
     margin-top: 20px; }
-  .Form textarea {
-    width: 300px; }
   .Nosotros img {
     display: none; }
   #carouselExampleControls {
     display: none; }
   .Nosotros p {
     padding-top: 50px; }
+  .Valor h2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px; }
   .Valores__1 {
     margin-left: 0px;
     margin-right: 0px;
@@ -598,18 +600,14 @@ label {
   .Valores__2 {
     margin-left: 0px;
     margin-right: 0px; }
-  .Valor h2 {
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 50px; }
   .Valores__3 {
     margin-left: 0px;
     margin-right: 0px; }
   .Formulario {
     margin-left: 20px;
     margin-right: 20px; }
-  .altura li {
-    height: 18.4px; }
+  .Form textarea {
+    width: 300px; }
   .lenguas {
     width: 100%; }
   .navegacion ul {

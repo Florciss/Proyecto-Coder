@@ -9,28 +9,24 @@
         background-image: none;
         background-color:  rgb(225, 203, 166);
         height: 300px;
+
+        p{
+            display: none;
+        }
+
+        h1{
+            margin-left: 20px;
+            margin-right: 20px;
+            width: auto;
+        }    
     }
     
-    .fondo p{
-            display: none;
-    }
-
-    .fondo h1{
-        margin-left: 20px;
-        margin-right: 20px;
-        width: auto;
-    }
-
     .links__portugues{
         margin-bottom: 20px;
     }
 
     .links__frances{
         margin-top: 20px;
-    }
-
-    .Form textarea{
-        width: 300px;
     }
 
     .Nosotros img{
@@ -45,6 +41,12 @@
         padding-top: 50px;
     }
 
+    .Valor h2{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 50px;
+    }
+
     .Valores__1{
         margin-left: 0px;
         margin-right: 0px;
@@ -54,12 +56,6 @@
     .Valores__2{
         margin-left: 0px;
         margin-right: 0px;
-    }
-
-    .Valor h2{
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-top: 50px;
     }
 
     .Valores__3{
@@ -72,8 +68,8 @@
         margin-right: 20px;
     }
 
-    .altura li{
-        height: 18.4px;
+    .Form textarea{
+        width: 300px;
     }
 
     .lenguas{
@@ -175,8 +171,7 @@
 
     .pieGen{
         text-align: center;
-    }
-   
+    }  
 }
 
 @media screen and (max-width: 320px) {
